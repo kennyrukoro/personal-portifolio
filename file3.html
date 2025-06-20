@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rukoro Kenny Crepin | Professional Resume</title>
+    
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+             <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <img src="images/profile.jpg" alt="Your Name" width="150">
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Problem Solver</p>
+    <a href="#contact" class="btn">Hire Me</a>
+        </section>
+        
+        <section id="about">
+             <h2>About Me</h2>
+    <p>I'm a passionate web developer with 3+ years of experience building responsive websites. I specialize in HTML, CSS, and JavaScript.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+    <div class="skill">
+        <span>HTML/CSS</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill">
+        <span>JavaScript</span>
+        <div class="skill-bar"><div class="skill-level" style="width: 80%;"></div></div>
+    </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+    <div class="job">
+        <h3>Frontend Developer at ABC Corp</h3>
+        <p class="date">2020 - Present</p>
+        <ul>
+            <li>Built responsive websites using React.</li>
+            <li>Improved site performance by 30%.</li>
+        </ul>
+    </div>
+        </section>
+        
+        <section id="education">
+         <h2>Education</h2>
+    
+    <div class="education-item">
+        <div class="education-header">
+            <h3>Master of Computer Science</h3>
+            <span class="education-date">2021 - 2023</span>
+        </div>
+        <p class="education-institution">Stanford University, CA</p>
+        <ul class="education-details">
+            <li>Specialization: Artificial Intelligence</li>
+            <li>GPA: 3.8/4.0</li>
+            <li>Thesis: "Neural Networks for Image Recognition"</li>
+        </ul>
+    </div>
+
+    <div class="education-item">
+        <div class="education-header">
+            <h3>Bachelor of Science in Software Engineering</h3>
+            <span class="education-date">2017 - 2021</span>
+        </div>
+        <p class="education-institution">MIT, Massachusetts</p>
+        <ul class="education-details">
+            <li>Minor: Data Science</li>
+            <li>GPA: 3.9/4.0</li>
+            <li>Capstone Project: Campus Navigation App</li>
+        </ul>
+    </div>
+        </section>
+        
+        <section id="projects">
+            <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card" onclick="openModal('project1')">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>E-Commerce Site</h3>
+    </div>
+    <!-- Modal -->
+    <div id="project1" class="modal">
+        <div class="modal-content">
+            <span onclick="closeModal('project1')">&times;</span>
+            <h3>E-Commerce Site</h3>
+            <p>Built with React and Node.js.</p>
+        </div>
+    </div>
+</section>
+        </section>
+        
+        <section id="contact">
+              <h2>Contact Me</h2>
+    <form id="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social-links">
+        <a href="https://github.com/yourname">GitHub</a>
+        <a href="https://linkedin.com/in/yourname">LinkedIn</a>
+    </div>
+    <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</body>
+</html>
